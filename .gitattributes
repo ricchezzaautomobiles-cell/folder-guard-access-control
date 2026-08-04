@@ -1,0 +1,14 @@
+# Configuration for git attributes
+# Project-specific overrides
+# Language detection rules
+*.woff binary
+yarn.lock linguist-generated
+**/*.py linguist-detectable
+
+*.png binary
+*.py linguist-detectable
+*.html linguist-vendored
+
+*.json linguist-detectable=false
+
+# eof 9db6b1fc
